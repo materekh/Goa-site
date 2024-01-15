@@ -86,6 +86,9 @@ body{
     padding-bottom: 0px;
     padding-top: 5px;
 }
+#name{
+    text-transform: capitalize;
+}
 /* footer */
 footer{
     z-index: 10;

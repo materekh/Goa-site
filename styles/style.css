@@ -103,3 +103,8 @@ footer{
 #copyright{
     margin:0px;
 }
+#thumb{
+    position: absolute;
+    margin:0;
+    padding:0;
+}

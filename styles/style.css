@@ -81,6 +81,21 @@ body{
     background-color:rgb(123, 123, 123);
     color:rgb(240, 240, 240);
 }
+.navButton:active{
+    background-color:rgb(86, 86, 86);
+    color:rgb(240, 240, 240);
+}
+.logoButton{
+    padding:13px 10px;
+    color:white;
+    user-select: none;
+    text-decoration: none;
+    border-radius: 8px;    
+    cursor: pointer;
+}
+.logoButton:hover{
+    transform: scale(0.95);
+}
 #youtube,#facebook{
     filter: invert(100%);
     padding-bottom: 0px;
@@ -88,6 +103,7 @@ body{
 }
 #name{
     text-transform: capitalize;
+    padding: 0px 10px;
 }
 /* footer */
 footer{
@@ -107,4 +123,7 @@ footer{
     position: absolute;
     margin:0;
     padding:0;
+}
+#en{
+    margin-right: 1.5vw;
 }

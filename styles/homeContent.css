@@ -26,6 +26,7 @@
     margin:17px 0px;
     border:5px solid rgb(0, 87, 0);
     margin-bottom: 30px;
+    box-shadow: 8px 8px 8px hsla(126, 100%, 13%, 0.5);
 }
 .stats{
     text-align:center;

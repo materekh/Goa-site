@@ -1,6 +1,12 @@
+var link1=document.getElementById("link1");
+var link2=document.getElementById("link2");
+var link3=document.getElementById("link3");
+var link4=document.getElementById("link4");
 var container1=document.getElementById("container1");
 var container2=document.getElementById("container2");
 var container3=document.getElementById("container3");
 var Name=document.getElementById("name");
 var login=document.getElementById("login");
 var logout=document.getElementById("logout");
+var en=document.getElementById("en");
+var ge=document.getElementById("geo");

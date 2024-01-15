@@ -3,6 +3,8 @@
     src: url(/fonts/Roboto/Roboto-Regular.ttf);
 }
 html{
+    margin-top: 50px;
+    margin-bottom: 20px;
     scroll-behavior: smooth;
 }
 body{
@@ -13,6 +15,7 @@ body{
     font-family: roboto;
     user-select: none;
 }
+/* scrollbar */
 ::-webkit-scrollbar {
     width: 11px;
 }
@@ -36,20 +39,36 @@ body{
 ::-webkit-resizer{
     color:red;
 }
-/*navigation start*/
+/*navigation */
 #navigation{
     z-index: 10;
     position:fixed;
     top:0px;
-    width:99vw;
+    width:100vw;
     background-color: rgb(24, 24, 24);
     height:50px;
+    font-size:20px;
+}
+#links{
+    position: absolute;
+    left:3.5vw;
+    width: 100vw;
+    height: 50px;
+    top:0px;
     display:flex;
     align-items: center;
-    padding-left: 1vw;
-    font-size:20px;
-    gap:5px;
-    padding-left: 3.5vw;
+    gap:0px;
+}
+#social{
+    position: absolute;
+    right: 11px;
+    width: 40vw;
+    height: 50px;
+    top:0px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:0px;
 }
 .navButton{
     padding:13px 20px;
@@ -62,65 +81,12 @@ body{
     background-color:rgb(123, 123, 123);
     color:rgb(240, 240, 240);
 }
-/*navigation end*/
-#goa{
-    color:rgb(0, 213, 0);
-}
-#bestAcademy{
-    margin-top: 70px;
-    position: relative;
-    padding-left: 4.5vw;
-    font-size:4.5vw;
-}
-/* stats start */
-#stats{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.container{
-    position: relative;
-    width:25.4vw;
-    height:25.4vw;
-    background-color: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5vw;
-    margin:17px 0px;
-    border:5px solid rgb(0, 87, 0);
-    margin-bottom: 30px;
-}
-.stats{
-    text-align:center;
-    vertical-align: text-bottom;
-    font-size:3vw;
-}
-.statsImg{
+#youtube,#facebook{
     filter: invert(100%);
-    position: absolute;
-    top:4vw;
-    vertical-align: text-top;
-    width: 7vw;
+    padding-bottom: 0px;
+    padding-top: 5px;
 }
-/* stats end */
-.ceo{
-    text-align: center;
-    font-size:40px;
-}
-#ceo{
-    display: flex;
-    justify-content: center;
-}
-#ceoimg{
-    filter: invert(100%);
-    width: 30vw;
-    border-radius: 50%;
-    border: 3px solid rgb(182, 0, 146);
-    box-shadow: 0px 0px 10px rgb(182, 0, 146);
-    margin-bottom: 70px;
-}
-/* footer start */
+/* footer */
 footer{
     z-index: 10;
     position:fixed;
@@ -134,4 +100,3 @@ footer{
 #copyright{
     margin:0px;
 }
-/* footer end */

@@ -1,0 +1,62 @@
+/* acadmy header */
+#goa{
+    color:rgb(0, 213, 0);
+}
+#bestAcademy{
+    margin-top: 20px;
+    position: relative;
+    padding-left: 4.5vw;
+    font-size:4.5vw;
+}
+/* stats */
+#stats{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    position: relative;
+    width:25.4vw;
+    height:25.4vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vw;
+    margin:17px 0px;
+    border:5px solid rgb(0, 87, 0);
+    margin-bottom: 30px;
+}
+.stats{
+    text-align:center;
+    vertical-align: text-bottom;
+    font-size:3vw;
+}
+.statsImg{
+    filter: invert(100%);
+    position: absolute;
+    top:4vw;
+    vertical-align: text-top;
+    width: 7vw;
+}
+/* ceo */
+.ceo{
+    text-align: center;
+    font-size:40px;
+}
+#ceo{
+    display: flex;
+    justify-content: center;
+}
+#ceoName{
+    font-size: 45px;
+}
+#ceoimg{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(3, 182, 0);
+    box-shadow: 0px 0px 10px rgb(3, 182, 0);
+    margin-bottom: 50px;
+}

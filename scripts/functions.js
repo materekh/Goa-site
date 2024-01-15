@@ -7,9 +7,10 @@ function chlang(){
     logout.textContent="გამოსვლა";
     if(loginH1!=null){
         loginH1.textContent="შესვლა";
-        nameForm.placeholder="სახელი";
+        nameform.placeholder="სახელი";
         lastNameForm.placeholder="გვარი";
         passwordForm.placeholder="პაროლი";
+        submit.textContent="შესვლა";
     }
     if(stat1!=null){
         stat1.textContent="400+ მოსწავლე";
@@ -17,6 +18,6 @@ function chlang(){
         stat3.textContent="2k+ გამომწერი";
         best.textContent="საუკეთესო აკადემია საქართველოში";
         ceo.textContent="აკადემიის უფროსი";
-        ceoName.textContent="ნიკა კეშელავა";
+        ceoName.textContent="ნიკა კეშელავა";   
     }
 }

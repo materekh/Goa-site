@@ -18,7 +18,7 @@ function chlang(){
     }
     if(stat1!=null){
         stat1.textContent="400+ მოსწავლე";
-        stat2.textContent="10+ კურსი";
+        stat2.textContent="5+ კურსი";
         stat3.textContent="2k+ გამომწერი";
         best.textContent="საუკეთესო აკადემია საქართველოში";
         ceo.textContent="აკადემიის უფროსი";

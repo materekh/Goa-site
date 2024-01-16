@@ -1,24 +1,24 @@
-Name.textContent=localStorage.getItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Name");
-var log=localStorage.getItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Login");
-var lang=localStorage.getItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Lang");
-if(log==="Log out"){
+Name.textContent=localStorage.getItem("Name");
+var log=localStorage.getItem("Login");
+var lang=localStorage.getItem("Lang");
+if(log==="Logout"){
     login.remove();
 }
 else{
     logout.remove();
 }   
-if(localStorage.getItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Lang")==="Ge"){
+if(localStorage.getItem("Lang")==="Ge"){
     chlang();
 }
 logout.addEventListener("click",function(){
-    localStorage.setItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Name","");
-    localStorage.setItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Login","Log in");
+    localStorage.setItem("Name","");
+    localStorage.setItem("Login","Login");
 })
 ge.addEventListener("click",function(){
-    localStorage.setItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Lang","Ge");
+    localStorage.setItem("Lang","Ge");
     location.reload();
 })
 en.addEventListener("click",function(){
-    localStorage.setItem("id='Z29hIHNpdGUgYnkgbWF0ZSByZWtodmlhc2h2aWxp' Lang","En");
+    localStorage.setItem("Lang","En");
     location.reload();
 })

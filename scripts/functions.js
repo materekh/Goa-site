@@ -7,10 +7,14 @@ function chlang(){
     logout.textContent="გამოსვლა";
     if(loginH1!=null){
         loginH1.textContent="შესვლა";
-        nameform.placeholder="სახელი";
-        lastNameForm.placeholder="გვარი";
-        passwordForm.placeholder="პაროლი";
-        submit.textContent="შესვლა";
+        nameformR.placeholder="სახელი";
+        lastNameFormR.placeholder="გვარი";
+        passwordFormR.placeholder="პაროლი";
+        usernameformL.placeholder="მეტსახელი";
+        usernameformR.placeholder="მეტსახელი";
+        passwordFormL.placeholder="პაროლი";
+        submitR.textContent="რეგისტრაცია";
+        submitL.textContent="შესვლა";
     }
     if(stat1!=null){
         stat1.textContent="400+ მოსწავლე";

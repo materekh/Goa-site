@@ -31,22 +31,37 @@
                     <a href="https://www.facebook.com/nika11keshelava" target="_blank" id="facebook" class="logoButton"><img src="/images/facebook.png" height="40"></a>
                     <a href="https://www.youtube.com/@Goal_Oriented_Academy__GOA" target="_blank" id="youtube" class="logoButton"><img src="/images/yt.png" height="40"></a>
                     <p id="name"></p>
-                    <a href="login.html" id="login" class="navButton">Log in</a>
-                    <a href="index.html" id="logout" class="navButton">Log out</a>
+                    <a href="login.html" id="login" class="navButton">Login</a>
+                    <a href="index.html" id="logout" class="navButton">Logout</a>
                 </div>
             </nav>
         </header>
         <main>
-            <form>
-                <h1 id="loginHeading">Login</h1>
-                <input class="form" type="text" id="nameform" placeholder="First name" maxlength="15" required>
+            <div id="form">
+                <form>
+                    <h1 id="loginHeading">Login</h1>
+                    <input class="form" type="text" id="usernameformL" placeholder="Username" maxlength="15" required>
+                    <br><br>
+                    <input class="form" type="password" id="passformL" placeholder="Password" minlength="8" required>
+                    <br><br>
+                    <button type="button" id="submitL" class="submit">Log in</button>
+                    <p id="errorL"></p>
+                </form>
                 <br><br>
-                <input class="form" type="text" id="lastnameform" placeholder="Last name" maxlength="15" required>
-                <br><br>
-                <input class="form" type="password" id="passform" placeholder="Password" maxlength="15" required>
-                <br><br>
-                <button id="submit">Log in</button>
-            </form>
+                <form>
+                    <h1 id="loginHeading">Register</h1>
+                    <input class="form" type="text" id="nameformR" placeholder="First name" required>
+                    <br><br>
+                    <input class="form" type="text" id="lastnameformR" placeholder="Last name" required>
+                    <br><br>
+                    <input class="form" type="text" id="usernameformR" placeholder="Username" maxlength="15" required>
+                    <br><br>
+                    <input class="form" type="password" id="passformR" placeholder="Password" minlength="8" required>
+                    <br><br>
+                    <button type="button" id="submitR" class="submit">Register</button>
+                    <p id="errorR"></p>
+                </form>
+            </div>
         </main>
         <footer>
             <p id="copyright">&copy; Goal-Oriented academy 2023-2024. all rights reserved</p>

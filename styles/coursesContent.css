@@ -11,12 +11,15 @@ main{
     justify-content: space-evenly;
     row-gap: 40px;
 }
+h2{
+    font-size: 32px;
+}
 .courseImg{
     border-radius: 5px;
     width: 39vw;
     height: 39vw;
     object-fit:contain;
     border:2px solid rgb(0, 252, 42);
-    box-shadow: 1px 1px 4px 2px hsla(113, 100%, 41%, 0.5);
+    box-shadow: 1px 1px 10px 5px hsla(113, 100%, 41%, 0.5);
     background-color: rgb(0, 148, 25);
 }

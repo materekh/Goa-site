@@ -7,6 +7,7 @@ function chlang(){
     logout.textContent="გამოსვლა";
     if(loginH1!=null){
         loginH1.textContent="შესვლა";
+        registerH1.textContent="რეგისტრაცია";
         nameformR.placeholder="სახელი";
         lastNameFormR.placeholder="გვარი";
         passwordFormR.placeholder="პაროლი";
@@ -23,5 +24,18 @@ function chlang(){
         best.textContent="საუკეთესო აკადემია საქართველოში";
         ceo.textContent="აკადემიის უფროსი";
         ceoName.textContent="ნიკა კეშელავა";   
+    }
+    if(aboutTxt1!=null){
+        aboutTxt1.textContent="ჩვენს შესახებ";
+        // aboutTxt2.textContent="ჩვენს შესახებ";
+        aboutTxt3.textContent="წოდებები";
+        aboutTxt4.textContent="1) CEO. CEO არის აკადემიის უფროსი.";
+        aboutTxt5.textContent="2) Mentor. Mentor-ი ასწავლის მოსწავლეებს.";
+        // aboutTxt6.textContent="3) Moderator. Moderator-ი ასრულებს CEO-ს მიცემულ დავალებას. Moderator-ი CEO-ს აკადემიის მართვაში ეხმარება ";
+        // aboutTxt7.textContent="ჩვენს შესახებ";
+        // aboutTxt8.textContent="ჩვენს შესახებ";
+        aboutTxt9.textContent="სხვა წოდებები";
+        // aboutTxt10.textContent="ჩვენს შესახებ";
+        // aboutTxt11.textContent="ჩვენს შესახებ";
     }
 }

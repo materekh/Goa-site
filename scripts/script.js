@@ -1,6 +1,6 @@
 Name.textContent=localStorage.getItem("Name");
-var log=localStorage.getItem("Login");
-var lang=localStorage.getItem("Lang");
+let log=localStorage.getItem("Login");
+let lang=localStorage.getItem("Lang");
 if(log==="Logout"){
     login.remove();
 }

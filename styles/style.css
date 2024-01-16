@@ -1,8 +1,8 @@
-@font-face {
+@font-face{
     font-family: Roboto;
     src: url(/fonts/Roboto/Roboto-Regular.ttf);
 }
-@font-face {
+@font-face{
     font-family: Poppins;
     src: url(/fonts/Poppins/Poppins-Regular.ttf);
 }
@@ -132,7 +132,7 @@ footer{
     margin-right: 1.5vw;
 }
 /* Responsive */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     footer{
         font-size: 14px;
     }
@@ -159,12 +159,6 @@ footer{
     }
 }
 @media screen and (max-width: 450px) {
-    footer{
-        height: 40px;
-    }
-    html{
-        margin-bottom: 40px;
-    }
     .navButton{
         padding:13px 10px;
     }
@@ -173,6 +167,12 @@ footer{
     }
 }
 @media screen and (max-width: 350px) {
+    footer{
+        height: 40px;
+    }
+    html{
+        margin-bottom: 40px;
+    }
     .logoButton{
         padding: 13px 8px;
         height: 20px;

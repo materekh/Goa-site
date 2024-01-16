@@ -27,15 +27,23 @@ function chlang(){
     }
     if(aboutTxt1!=null){
         aboutTxt1.textContent="ჩვენს შესახებ";
-        // aboutTxt2.textContent="ჩვენს შესახებ";
+        aboutTxt2.textContent="ჩვენი აკადემია  არის მეგობრული და სანდო. გიდგებათ პერსონალურად, ადამიანურად და ბოლომდე გეხმარებით განვითარებაში. ჩვენი მისიაა დავეხმაროთ ყველა ასაკის ხალხს პროგრამირების სწავლაში. ჩვენი გაკვეთილები ტარდება discord სერვერზე. ყოველ კვირა ჩვენ გვაქვს გაკვეთილები. როცა შემოხვლა ირჩევ რაზმს. თუ შეკითხვები გიჩნდება რაზმის ლიდერი გეხმარება.";
         aboutTxt3.textContent="წოდებები";
         aboutTxt4.textContent="1) CEO. CEO არის აკადემიის უფროსი.";
         aboutTxt5.textContent="2) Mentor. Mentor-ი ასწავლის მოსწავლეებს.";
-        // aboutTxt6.textContent="3) Moderator. Moderator-ი ასრულებს CEO-ს მიცემულ დავალებას. Moderator-ი CEO-ს აკადემიის მართვაში ეხმარება ";
-        // aboutTxt7.textContent="ჩვენს შესახებ";
-        // aboutTxt8.textContent="ჩვენს შესახებ";
+        aboutTxt6.textContent="3) Moderator. Moderator-ი ასრულებს CEO-ს დავალებას. Moderator-ი CEO-ს აკადემიის მართვაში ეხმარება.";
+        aboutTxt7.textContent="4) Leader. Leader-ი ასრულებს CEO-ს და Mentor-ის დავალებებს. ლიდერებს ყავთ რაზმი, რომის მოსწავლეების დახმარებაც ევალებათ";
+        aboutTxt8.textContent="5) Mini leader. Mini leader-ი ეხმარება ლიდერს საქმის შესრულებაში";
         aboutTxt9.textContent="სხვა წოდებები";
-        // aboutTxt10.textContent="ჩვენს შესახებ";
-        // aboutTxt11.textContent="ჩვენს შესახებ";
+        aboutTxt10.textContent="• Mini mentor. Mini mentor-ი ატარებს ინდივიდუალურ გაკვეთილებს.";
+        aboutTxt11.textContent="• Github checker. Github Checker-ი ამოწმენს ხალხის დავალებებს გითაბზე.";
+    }
+    if(course1!=null){
+        course1.textContent="პროგრამირება";
+        course2.textContent="გრაფიკული დიზაინი";
+        course3.textContent="ინგლისური";
+        course4.textContent="მათემატიკა";
+        course5.textContent="გეიმ დეველოპმენტი";
+        course6.textContent="ციფრული მეცნიერება";
     }
 }

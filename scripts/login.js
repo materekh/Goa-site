@@ -5,7 +5,7 @@ submitR.addEventListener("click",function(){
     if(localStorage.getItem(username)==null){
         localStorage.setItem(username,passwordFormR.value);
         localStorage.setItem("Name",username);
-        localStorage.setItem("Login","Log out");
+        localStorage.setItem("Login","Logout");
         location.reload();
     }
     else{

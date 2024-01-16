@@ -2,6 +2,10 @@
     font-family: roboto;
     src: url(/fonts/Roboto/Roboto-Regular.ttf);
 }
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
 html{
     margin-top: 50px;
     margin-bottom: 20px;
@@ -12,7 +16,7 @@ body{
     color:white;
     margin:0px;
     padding:0px;
-    font-family: roboto;
+    font-family: poppins;
     user-select: none;
 }
 /* scrollbar */

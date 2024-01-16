@@ -28,3 +28,4 @@ var submitL=document.getElementById("submitL");
 var submitR=document.getElementById("submitR");
 var errorL=document.getElementById("errorL");
 var errorR=document.getElementById("errorR");
+var facebook=document.getElementById("facebook");

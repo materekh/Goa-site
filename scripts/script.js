@@ -22,3 +22,6 @@ en.addEventListener("click",function(){
     localStorage.setItem("Lang","En");
     location.reload();
 })
+facebook.addEventListener("click",function(){
+    window.open("https://www.facebook.com/nika11keshelava");
+})

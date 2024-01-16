@@ -15,3 +15,42 @@ h3{
 p{
     font-size: 20px;
 }
+/* responsive */
+@media screen and (max-width: 800px) {
+    .about{
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }   
+}
+@media screen and (max-width: 300px) {
+    .about{
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 23px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 15px;
+    }   
+}

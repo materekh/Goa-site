@@ -8,8 +8,9 @@ main{
     align-items: center;
 }
 #form{
-    width: 45vw;
-    height: 80vh;
+    margin-bottom: 40px;
+    width: 40vw;
+    height: 90vh;
     background-color: rgb(0, 129, 0);
     border-radius: 20px;
     box-shadow: 8px 8px 8px hsla(126, 100%, 13%, 0.5);
@@ -29,7 +30,7 @@ main{
     background-color:rgb(0, 107, 0);
     border-radius: 7px;
     width:40%;
-    height:30px;
+
     color:white;
     text-shadow: 1px 1px 2px black;
     height:3vh;
@@ -43,4 +44,37 @@ main{
 #errorR,#errorL{
     color:hsl(0, 100%, 30%);
     font-size: 12px;
+}
+@media screen and (max-height: 650px) {
+    #form{
+        height: 700px;
+    }
+    .form{
+        height:20px;
+    }
+    .submit{
+        height:20px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #form{
+        width: 55%;
+    }
+    .form{
+        width: 50%;
+    }
+    .submit{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 700px) {
+    #form{
+        width: 70%;
+    }
+    .form{
+        width: 60%;
+    }
+    .submit{
+        width: 55%;
+    }
 }

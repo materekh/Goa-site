@@ -48,3 +48,19 @@ function chlang(){
         course6.textContent="ციფრული მეცნიერება";
     }
 }
+function frame(){
+    let username=localStorage.getItem("Name");
+    if(screen.width<1260){
+        if(screen.width<420){
+            username=username[0]+"...";
+        }
+        else if(username.length>7 && screen.width<1150){
+            username=username[0]+username[1]+username[2]+username[3]+username[4]+"...";
+        }
+        else if(username.length>10){
+            username=username[0]+username[1]+username[2]+username[3]+username[4]+username[5]+username[6]+username[7]+"...";
+        }
+    }
+    Name.textContent=username;
+}
+setInterval(frame,50);

@@ -11,7 +11,7 @@ main{
     animation: appearUpLow 1s;
     margin-bottom: 40px;
     width: 40vw;
-    height: 84vh;
+    height: 92vh;
     background-color: rgb(0, 129, 0);
     border-radius: 20px;
     box-shadow: 8px 8px 8px hsla(126, 100%, 13%, 0.5);
@@ -48,7 +48,7 @@ main{
 }
 @media screen and (max-height: 670px) {
     #form{
-        height: 600px;
+        height: 650px;
     }
     .form{
         height:20px;

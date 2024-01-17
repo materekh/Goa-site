@@ -1,4 +1,3 @@
-Name.textContent=localStorage.getItem("Name");
 let log=localStorage.getItem("Login");
 let lang=localStorage.getItem("Lang");
 if(log==="Logout"){

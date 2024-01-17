@@ -15,4 +15,9 @@ main{
     border:2px solid rgb(0, 252, 42);
     box-shadow: 1px 1px 4px 1px hsla(113, 100%, 41%, 0.5);
     animation: appear 2s;
+    transform: 0.2s;
+}
+.galleryImg:hover{
+    transform: scale(0.998);
+    border:2px solid rgb(0, 225, 37);
 }

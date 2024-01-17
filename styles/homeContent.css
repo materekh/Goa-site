@@ -8,6 +8,10 @@
     padding-left: 4.5vw;
     font-size:4.5vw;
     animation: appear 0.5s;   
+    transition: 0.05s;
+}
+#bestAcademy:active{
+    transform: scale(0.999) translate(0px,-1px);
 }
 /* stats */
 #stats{
@@ -29,6 +33,15 @@
     border:5px solid rgb(0, 87, 0);
     margin-bottom: 30px;
     box-shadow: 8px 8px 8px hsla(126, 100%, 13%, 0.5);
+    transition: 0.2s;
+}
+.container:hover{
+    transform: scale(1.005) translate(0px,-1px);
+    background-color: rgb(0, 121, 0);
+}
+.container:active{
+    transform: scale(1.003) translate(0px,0px);
+    background-color: rgb(0, 116, 0);
 }
 .stats{
     text-align:center;
@@ -78,15 +91,14 @@
     position: absolute;
     left:30%;
     width:40%;
+    transition: 0.4s;
 }
 #ceo:hover{
-    transition: 0.4s;
     filter: saturate(1.5);
     transform: scale(1.01);
 }
 #ceo:active{
-    transition: 0.3s;
-    filter: saturate(1.7);
-    transform: scale(1.02);
+    filter: saturate(1.2);
+    transform: scale(1.005);
 }
 /* animation */

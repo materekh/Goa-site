@@ -80,10 +80,12 @@
     width:40%;
 }
 #ceo:hover{
+    transition: 0.4s;
     filter: saturate(1.5);
     transform: scale(1.01);
 }
 #ceo:active{
+    transition: 0.3s;
     filter: saturate(1.7);
     transform: scale(1.02);
 }

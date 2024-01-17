@@ -14,4 +14,5 @@ main{
     object-fit: cover;
     border:2px solid rgb(0, 252, 42);
     box-shadow: 1px 1px 4px 1px hsla(113, 100%, 41%, 0.5);
+    animation: appear 2s;
 }

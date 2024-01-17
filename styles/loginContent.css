@@ -8,6 +8,7 @@ main{
     align-items: center;
 }
 #form{
+    animation: appearUpLow 1s;
     margin-bottom: 40px;
     width: 40vw;
     height: 90vh;

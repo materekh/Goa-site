@@ -1,4 +1,5 @@
 .about{
+    animation: appearUpLow 1s;
     position: relative;
     padding-left: 80px;
     padding-right: 80px;

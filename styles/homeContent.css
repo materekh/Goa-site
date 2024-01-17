@@ -44,17 +44,12 @@
 }
 /* ceo */
 .ceo{
+    font-size: 3vw;
     text-align: center;
-    font-size:40px;
-    animation: appearUp 1s;   
 }
-#ceo{
+#ceoCenter{
     display: flex;
     justify-content: center;
-}
-#ceoName{
-    font-size: 45px;
-    animation: appearUp 1s;
 }
 #ceoimg{
     width: 28vw;
@@ -64,6 +59,32 @@
     border: 3px solid rgb(3, 182, 0);
     box-shadow: 0px 0px 10px rgb(3, 182, 0);
     margin-bottom: 50px;
-    animation: appearUp 1s;   
+    background-color: black;
+}
+#ceoAbout{
+    opacity: 0;
+    margin-bottom: 50px;
+    margin-right: 50vw;
+    position: relative;
+    top:25vw;
+    left:35vw;
+    font-size: 2vw;
+    z-index: -10;
+}
+#ceo3{
+    animation: appearUp 1s;
+}
+#ceo{
+    position: absolute;
+    left:30%;
+    width:40%;
+}
+#ceo:hover{
+    filter: saturate(1.5);
+    transform: scale(1.01);
+}
+#ceo:active{
+    filter: saturate(1.7);
+    transform: scale(1.02);
 }
 /* animation */

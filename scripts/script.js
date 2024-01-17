@@ -22,6 +22,34 @@ en.addEventListener("click",function(){
     localStorage.setItem("Lang","En");
     location.reload();
 })
-facebook.addEventListener("click",function(){
-    window.open("https://www.facebook.com/nika11keshelava");
-})
+var isOpen=false;
+if(ceoContainer!=null){
+    ceoContainer.addEventListener("click",function(){
+        if(isOpen==false){
+            isOpen=true;
+            ceoContainer.style.animation="left 1.5s ease-in-out";
+            ceoAbout.style.animation="appear 1.5s ease-in-out";
+            ceoAbout.style.opacity="1";
+            ceoContainer.style.left="0px";
+            let parent=ceoContainer.parentElement;
+            ceoContainer.remove();
+            parent.appendChild(ceoContainer);
+            parent=ceoAbout.parentElement;
+            ceoAbout.remove();
+            parent.appendChild(ceoAbout);
+        }
+        else{
+            ceoContainer.style.animation="left 1.5s reverse ease-in-out";
+            ceoAbout.style.animation="appear 1.5s reverse ease-in-out";
+            ceoAbout.style.opacity="0";
+            ceoContainer.style.left="30%";    
+            isOpen=false;  
+            let parent=ceoContainer.parentElement;
+            ceoContainer.remove();
+            parent.appendChild(ceoContainer); 
+            parent=ceoAbout.parentElement;
+            ceoAbout.remove();
+            parent.appendChild(ceoAbout);
+        }
+    })
+}

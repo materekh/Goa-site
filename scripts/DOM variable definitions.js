@@ -46,3 +46,6 @@ let course3=document.getElementById("course3");
 let course4=document.getElementById("course4");
 let course5=document.getElementById("course5");
 let course6=document.getElementById("course6");
+let ceoContainer=document.getElementById("ceo");
+let ceoAbout=document.getElementById("ceoAbout");
+let ceoCenter=document.getElementById("ceoCenter");

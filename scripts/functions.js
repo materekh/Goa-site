@@ -23,7 +23,8 @@ function chlang(){
         stat3.textContent="2k+ გამომწერი";
         best.textContent="საუკეთესო აკადემია საქართველოში";
         ceo.textContent="აკადემიის უფროსი";
-        ceoName.textContent="ნიკა კეშელავა";   
+        ceoName.textContent="ნიკა კეშელავა";
+        ceoAbout.textContent="ნიკა კეშელავა აკადემიის უფროსია. მისი მისიაა დაეხმაროს ხალხს ფიზიკურად და ფსიქოლოგიურად განვითარებაში."
     }
     if(aboutTxt1!=null){
         aboutTxt1.textContent="ჩვენს შესახებ";

@@ -58,17 +58,19 @@ function getwidth(){
 }
 function frame(){
     let username=localStorage.getItem("Name");
-    if(getwidth()<1260){
-        if(getwidth()<420){
-            username=username[0]+"...";
+    if(usernameame!=null){
+        if(getwidth()<1260){
+            if(getwidth()<420){
+                username=username[0]+"...";
+            }
+            else if(username.length>7 && getwidth()<1150){
+                username=username[0]+username[1]+username[2]+username[3]+username[4]+"...";
+            }
+            else if(username.length>10){
+                username=username[0]+username[1]+username[2]+username[3]+username[4]+username[5]+username[6]+username[7]+"...";
+            }
         }
-        else if(username.length>7 && getwidth()<1150){
-            username=username[0]+username[1]+username[2]+username[3]+username[4]+"...";
-        }
-        else if(username.length>10){
-            username=username[0]+username[1]+username[2]+username[3]+username[4]+username[5]+username[6]+username[7]+"...";
-        }
+        Name.textContent=username;
     }
-    Name.textContent=username;
 }
 setInterval(frame,50);

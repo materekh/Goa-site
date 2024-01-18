@@ -1,7 +1,6 @@
 submitR.addEventListener("click",function(){
     username=usernameformR.value;
     username=username.toLowerCase();
-    console.log(username.length);
     if(localStorage.getItem(username)==null){
         if(username.length<3){
             if(localStorage.getItem("Lang")=="Ge"){

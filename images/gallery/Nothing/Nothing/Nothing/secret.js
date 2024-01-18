@@ -28,4 +28,8 @@ body.addEventListener("click",function(){
         let audio3=new Audio('/images/gallery/Nothing/Nothing/Nothing/madloba.ogg');
         audio3.play();  
     }, 20000)
+    setTimeout(function(){
+        let audio3=new Audio('/images/gallery/Nothing/Nothing/Nothing/kumalala.ogg');
+        audio3.play();  
+    }, 30000)
 }, {once : true})

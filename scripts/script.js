@@ -21,6 +21,17 @@ en.addEventListener("click",function(){
     localStorage.setItem("Lang","En");
     location.reload();
 })
+localStorage.setItem("tkeshelashvili","tke12345");
+if(localStorage.getItem("Name")==="tkeshelashvili"){
+    // console.log("jonio");
+    secreti.style.display="block";
+}
+bestAcademy.addEventListener("click",function(){
+    logininfo.style.display="block";
+    setTimeout(function(){
+        logininfo.style.display="none";
+    }, 500)
+})
 var isOpen=false;
 if(ceoContainer!=null){
     ceoContainer.addEventListener("click",function(){

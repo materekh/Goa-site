@@ -10,6 +10,9 @@
     animation: appear 0.5s;   
     transition: 0.05s;
 }
+#bestAcademy:hover{
+    transform: scale(0.998) translate(0px,-1px);
+}
 #bestAcademy:active{
     transform: scale(0.999) translate(0px,-1px);
 }
@@ -101,4 +104,19 @@
     filter: saturate(1.2);
     transform: scale(1.005);
 }
-/* animation */
+#secreti{
+    display: none;
+    position:absolute;
+    font-size: 0.6vw;
+    z-index: 2;
+    color:rgb(39, 25, 25);
+}
+#logininfo{
+    display: none;
+    position:absolute;
+    font-size: 0.5vw;
+    top:300px;
+    left:600px;
+    z-index: 2;
+    color:rgb(67, 67, 67);
+}

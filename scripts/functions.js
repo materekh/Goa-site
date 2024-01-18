@@ -58,7 +58,7 @@ function getwidth(){
 }
 function frame(){
     let username=localStorage.getItem("Name");
-    if(usernameame!=null){
+    if(username!=null){
         if(getwidth()<1260){
             if(getwidth()<420){
                 username=username[0]+"...";

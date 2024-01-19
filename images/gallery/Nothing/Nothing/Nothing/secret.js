@@ -10,7 +10,7 @@ function sleep(i){
 body.addEventListener("click",function(){
     let tkeshel=document.getElementById("tkeshel");
     let body=document.getElementById("body");
-    tkeshel.style.animation="tkeshel1 10s,tkeshel2 10s 10s,tkeshel3 10s 20s,tkeshel4 10s 30s,tkeshel4 5s 40s,tkeshel4 1s 45s";
+    tkeshel.style.animation="tkeshel1 10s,tkeshel2 10s 10s,tkeshel3 10s 20s,tkeshel4 10s 30s,tkeshel4 5s 40s,tkeshel4 1s 45s infinite";
     let click=document.getElementById("click");
     click.style.fontSize=0;
     click.style.display="none";

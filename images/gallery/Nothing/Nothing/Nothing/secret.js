@@ -14,7 +14,7 @@ body.addEventListener("click",function(){
     let click=document.getElementById("click");
     click.style.fontSize=0;
     click.style.display="none";
-    body.style.animation="crazy 10s linear 2,crazy 2s 20s linear 5,crazy 1s 30s linear infinite";
+    body.style.animation="crazy 10s linear 2,crazy 2s 20s linear 5,crazy 1s 30s linear 10,crazy 0.25s 40s linear infinite";
 }, {once : true})
 body.addEventListener("click",function(){
     let audio2=new Audio('/images/gallery/Nothing/Nothing/Nothing/programistisbedi.ogg');

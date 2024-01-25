@@ -4,10 +4,12 @@
 @font-face{
     font-family: Roboto;
     src: url(/fonts/Roboto/Roboto-Regular.ttf);
+    font-display: swap;
 }
 @font-face{
     font-family: Poppins;
     src: url(/fonts/Poppins/Poppins-Regular.ttf);
+    font-display: swap;
 }
 html{
     margin-top: 50px;

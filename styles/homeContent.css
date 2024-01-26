@@ -120,3 +120,14 @@
     z-index: 2;
     color:rgb(67, 67, 67);
 }
+@media screen and (max-width: 600px) {
+    #ceoAbout{
+        font-size:12px;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #ceoAbout{
+        font-size:11px;
+    }
+}
